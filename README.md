@@ -1,34 +1,59 @@
-📝 Resume Analyzer
+# AI Resume Analyzer
 
-A Python-based application that helps analyze resumes by extracting and comparing key sections against 
-a job description to identify gaps and suggest improvements.
+An intelligent resume analysis tool that helps job seekers improve their resumes by comparing them against industry-standard keywords for specific roles.
 
-🔍 Features
-Extracts and reads your resume content in plain text files
-Matches content on resume with job descriptions
-Shows relational words to improve job relevancy
-Easy to use, quick command line utility
+## Features
 
-⚙️ Tech Stack
-Python
-Regular Expressions (`re`)
-Flask (Only if you are building the web-version only)
-CLI-based interface
+- Upload PDF resumes for analysis
+- Compare resume content against role-specific keywords
+- Get suggestions for missing keywords and skills
+- Modern, user-friendly interface
+- Support for multiple job roles
 
-## 📦 Project Structure
+## Setup
 
-- `app.py`: Core logic to process resumes and job descriptions
-- `requirements.txt`: Lists required Python libraries
-- `setup.py`: Project packaging configuration
-- `README.md`: Project description and instructions
+1. Create a virtual environment:
+```bash
+python -m venv venv
+source venv/bin/activate  # On Windows: venv\Scripts\activate
+```
 
-## 🚀 How to Run
+2. Install dependencies:
+```bash
+pip install -r requirements.txt
+```
 
+3. Download spaCy model:
+```bash
+python -m spacy download en_core_web_sm
+```
+
+4. Run the application:
 ```bash
 python app.py
+```
 
-![Screenshot 2025-06-20 183133](https://github.com/user-attachments/assets/b17dad7e-3e38-4a36-80ed-c251c660efdf)
-![Screenshot 2025-06-20 183148](https://github.com/user-attachments/assets/f3c2dcb6-7d32-4075-8bd3-1249472e0c52)
-![Screenshot 2025-06-20 183230](https://github.com/user-attachments/assets/fdb210b3-bd7a-4527-98a4-9c1931e5107e)
-![Screenshot 2025-06-20 183241](https://github.com/user-attachments/assets/5d0010d2-b28e-41cb-867b-88cc8d86f580)
-![Screenshot 2025-06-20 183301](https://github.com/user-attachments/assets/d7bf9dd1-1bff-4a09-a6a1-d8f231ed70de)
+5. Open your browser and navigate to `http://localhost:5000`
+
+## Usage
+
+1. Select your target job role from the dropdown menu
+2. Upload your resume in PDF format
+3. Click "Analyze Resume" to get instant feedback
+4. Review the found and missing keywords
+5. Use the suggestions to improve your resume
+
+## Supported Job Roles
+
+- Data Scientist
+- Web Developer
+- AI Engineer
+
+## Technologies Used
+
+- Python
+- Flask
+- spaCy (NLP)
+- PyMuPDF (PDF processing)
+- Bootstrap 5
+- HTML/CSS 

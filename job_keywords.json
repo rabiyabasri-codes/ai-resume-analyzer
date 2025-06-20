@@ -1,0 +1,44 @@
+{
+    "Data Scientist": {
+      "technical_skills": ["Python", "Machine Learning", "Statistics", "Data Analysis", "Pandas", "NumPy"],
+      "tools": ["Jupyter", "TensorFlow", "scikit-learn", "Tableau", "Git"],
+      "certifications": ["Certified Data Scientist", "AWS Certified Machine Learning", "Certified Professional"],
+      "soft_skills": ["Problem Solving", "Communication", "Teamwork"]
+    },
+    "Web Developer": {
+      "technical_skills": ["HTML", "CSS", "JavaScript", "React", "Node.js", "REST APIs", "Python"],
+      "tools": ["VS Code", "Git", "Webpack", "Chrome DevTools"],
+      "certifications": ["Certified Web Developer", "AWS Certified Developer", "Certified Professional"],
+      "soft_skills": ["Attention to Detail", "Creativity", "Collaboration", "Communication"]
+    },
+    "AI Engineer": {
+      "technical_skills": ["Python", "Deep Learning", "NLP", "PyTorch", "TensorFlow"],
+      "tools": ["Jupyter", "Docker", "Kubernetes", "Git"],
+      "certifications": ["AI Engineer Certification", "Google Cloud AI", "Certified Professional"],
+      "soft_skills": ["Critical Thinking", "Adaptability", "Communication"]
+    },
+    "Project Manager": {
+      "technical_skills": ["Project Planning", "Risk Management", "Agile", "Scrum", "Python"],
+      "tools": ["JIRA", "Trello", "MS Project", "Git"],
+      "certifications": ["PMP", "Certified Scrum Master", "Certified Professional"],
+      "soft_skills": ["Leadership", "Communication", "Time Management"]
+    },
+    "UI/UX Designer": {
+      "technical_skills": ["Wireframing", "Prototyping", "User Research", "Figma", "Adobe XD", "Python"],
+      "tools": ["Figma", "Sketch", "Adobe XD", "Git"],
+      "certifications": ["Certified UX Designer", "Certified Professional"],
+      "soft_skills": ["Empathy", "Creativity", "Collaboration", "Communication"]
+    },
+    "DevOps Engineer": {
+      "technical_skills": ["CI/CD", "Cloud Computing", "Infrastructure as Code", "Linux", "Python"],
+      "tools": ["Docker", "Kubernetes", "Jenkins", "AWS", "Git"],
+      "certifications": ["AWS Certified DevOps Engineer", "Docker Certified Associate", "Certified Professional"],
+      "soft_skills": ["Problem Solving", "Collaboration", "Adaptability", "Communication"]
+    },
+    "Business Analyst": {
+      "technical_skills": ["Business Analysis", "Requirements Gathering", "SQL", "Data Visualization", "Python"],
+      "tools": ["Excel", "Power BI", "Tableau", "Git"],
+      "certifications": ["CBAP", "PMI-PBA", "Certified Professional"],
+      "soft_skills": ["Analytical Thinking", "Communication", "Stakeholder Management"]
+    }
+  }
